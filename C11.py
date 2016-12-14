@@ -432,7 +432,7 @@ syntax = {
             'patterns':
             [
                 {
-                    'name' : 'entity.other.macro.keyowrds.c.11',
+                    'name' : 'entity.other.macro.keywords.c.11',
                     'match': r'^\s*(#)\s*((include\s+(<(.+)>|"(.+)"))|'
                              r'line|error|pragma|'
                              r'(un|ifn?)def|else|endif)',

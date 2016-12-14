@@ -382,7 +382,7 @@
 					<key>match</key>
 					<string>^\s*(#)\s*((include\s+(&lt;(.+)&gt;|"(.+)"))|line|error|pragma|(un|ifn?)def|else|endif)</string>
 					<key>name</key>
-					<string>entity.other.macro.keyowrds.c.11</string>
+					<string>entity.other.macro.keywords.c.11</string>
 				</dict>
 				<dict>
 					<key>begin</key>
