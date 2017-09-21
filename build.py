@@ -21,14 +21,14 @@ LANG_PATH  = join(CURRENT_DIR, 'langs')
 
 #------------------------------------------------------------------------------#
 # Import C11 modules
-from C11 import syntax
+from src.C11 import syntax
 
 # Setup names and locations
 lang = Language(name='C11',
                 path=LANG_PATH,
                 scope='c.11',
-                comments={'lines' : '//',
-                          'blocks': ('/*', '*/')},
+                comments={'line_comments' : ('//',),
+                          'block_comments': (('/*', '*/'),)},
                 test_name='C11_TEST',
                 test_path='~/.config/sublime-text-3/Packages/User/C11_TEST')
 # Convert and save language file
